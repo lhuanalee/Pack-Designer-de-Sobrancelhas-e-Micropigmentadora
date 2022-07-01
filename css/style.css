@@ -1,0 +1,211 @@
+html, body, header, ul, li, img, p, h1, h2, h3, nav, div, a, section{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+}
+
+body{
+    max-width: 1400px;
+    max-height: 100%;
+    font-family: 'IBM Plex Sans', sans-serif;
+    background-color: white;
+    background-color: #f68695ec;
+    background: url('https://lhuanalee.com.br/wp-content/uploads/2022/03/LHU-6.png'); 
+    background-attachment: fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-position: center top;
+    background-repeat: no-repeat;
+}
+
+header {
+position: relative;
+    }
+
+#principal {
+    width: 100vw;
+}
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    flex-wrap: wrap;
+    max-width: 100%;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.container {
+    max-width: 52%;
+}
+
+.titulo {
+    margin: 10px auto;
+    width: 300px;
+    height: 120px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.titulo1 {
+    color: white;
+    text-align: center;
+}
+
+.titulo2 {
+    color: #AB0A2F;
+}
+
+iframe {
+    border-radius: 20px;
+    border: 2px solid #AB0A2F;
+    box-shadow: 0 0 16px #AB0A2F;
+}
+
+button {
+    font-size: 1.3rem;
+    font-weight: 600;
+    padding: 12px 0;
+    background-color: #FFC60B;
+    border-radius: 10px;
+    border: 2px solid transparent;
+    box-shadow: 0 0 1em rgb(239, 239, 239);
+    width: 100%;
+    transition: 300ms ease-in-out;
+}
+
+button:hover {
+    font-size: 1.1rem;
+    background-color: #C64764;
+    color: white;
+    transform: scale(0,5, 0.8);
+    width: 90%;
+}
+
+.button {
+    height: 6rem;
+    width: 30vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.paragrafo2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.separador {
+    background: #ffffff;
+    width: 0.02rem;
+    height: 100px;
+    margin: 0 10px;
+}
+
+.online {
+    color: white;
+    font-weight: 600;
+    margin-left: 8px;
+}
+
+.on {
+    color: white;
+    font-weight: 600;
+    margin-left: 8px;
+}
+
+.online1 {
+    color: #AB0A2F;
+    font-weight: 600;
+    font-size: 25px;
+    margin-left: 8px;
+}
+
+.on2 {
+    color: white;
+    font-weight: 600;
+    margin-left: 8px;
+    margin-bottom: 8px;
+}
+
+.on3 {
+    margin-top: 8px;
+    color: #AB0A2F;
+    font-weight: 800;
+    margin-bottom: 20px;
+}
+
+.retangulo {
+    padding: 1rem;
+    background-color: #C64764;
+    width: 100%;
+}
+
+.pack {
+    font-size: 150%;
+    text-align: center;
+    color: white;
+}
+
+.main2 {
+    background-color: white;
+    width: 100vw;
+    display: flex;
+    flex-direction: row;
+}
+
+.artigo {
+    display: flex;
+    width: 20vw;
+    margin: 2rem;
+}
+
+.icon {
+    display: flex;
+    padding: 0 5px;
+}
+
+.artigo img {
+    width: 30%;
+    display: flex;
+    justify-content: flex-start;
+    padding: 0 1rem 50%;
+    stroke: #AB0A2F;
+}
+
+.artigo h2 {
+    font-size: 1.3rem;
+}
+
+.artigoimg {
+    width: 30%;
+}
+
+.artigoimg img {
+    width: 300px;
+    height: 300px;
+}
+
+.opacity {
+    width: 100vw;
+    height: 100%;
+    background-color: #f68695ce;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+}
